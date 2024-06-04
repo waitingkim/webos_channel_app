@@ -1,0 +1,12 @@
+{
+  "id": "com.lg.app.signage",
+  "version": "0.0.7",
+  "vendor": "CASTIS",
+  "type": "web",
+  "main": "index.html",
+  "title": "Channel App",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "appDescription": "webOS Signage Application",
+  "inspectable": true
+}
