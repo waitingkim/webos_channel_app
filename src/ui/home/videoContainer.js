@@ -137,7 +137,7 @@ const Rank = styled.span`
     position: absolute;
 `
 
-const VideoContainer = ({isFocus, groupId, content, rank, isActive}) => {
+const VideoContainer = ({isFocus, type, content, isActive}) => {
     console.log(content)
     return (
         <div>
@@ -169,9 +169,9 @@ const VideoContainer = ({isFocus, groupId, content, rank, isActive}) => {
                             <img style={{width: "390px", height: "219px", borderRadius: "10px"}}
                                  src={content.poster}/>
                             {
-                                (groupId === 1000) ?
+                                (type === 'top10') ?
                                     <Rank>
-                                        {rank}
+                                        {content.rank}
                                     </Rank> : <div/>
                             }
                         </ContentUnFocus>

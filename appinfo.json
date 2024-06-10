@@ -1,6 +1,6 @@
 {
   "id": "com.lg.app.signage",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "vendor": "CASTIS",
   "type": "web",
   "main": "index.html",

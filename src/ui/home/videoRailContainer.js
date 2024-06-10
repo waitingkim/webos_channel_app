@@ -182,8 +182,8 @@ const RailContainer = ({item, isActive}) => {
                 {
                     contentList.map((content, i) => {
                         return (
-                            <ContentContainerLayout key={i} groupId={item.groupId} content={content}
-                                                    isFocus={i === 1} rank={index + i} isActive={isActive}/>
+                            <ContentContainerLayout key={i} type={item.type} content={content}
+                                                    isFocus={i === 1} isActive={isActive}/>
                         )
                     })
                 }
