@@ -1,0 +1,61 @@
+.menu-close {
+    animation: menu-close 0.3s linear both;
+}
+
+.menu-open {
+    animation: menu-open 0.3s linear both;
+}
+
+.menu-close {
+    animation: menu-close 0.3s linear both;
+}
+
+.menu-open {
+    animation: menu-open 0.3s linear both;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translate(0px, 0px);
+        animation-timing-function: ease-in-out
+    }
+    50% {
+        animation-timing-function: ease-in-out
+    }
+    100% {
+        transform: translate(-315px, 0px);
+        animation-timing-function: ease-in-out
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        transform: translate(-315px, 0px);
+        animation-timing-function: ease-in-out
+    }
+    50% {
+        animation-timing-function: ease-in-out
+    }
+    100% {
+        transform: translate(0px, 0px);
+        animation-timing-function: ease-in-out
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

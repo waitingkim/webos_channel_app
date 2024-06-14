@@ -6,7 +6,7 @@ const Container = () => {
         // console.log('Container', props)
     }, []);
 
-    return (<div>AAA</div>);
+    return (<div></div>);
 }
 
 export default Container
