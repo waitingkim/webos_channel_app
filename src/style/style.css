@@ -6,15 +6,15 @@
     animation: menu-open 0.3s linear both;
 }
 
-.menu-close {
-    animation: menu-close 0.3s linear both;
+.menu-fade-out {
+    animation: fadeOut 0.3s linear both;
 }
 
-.menu-open {
-    animation: menu-open 0.3s linear both;
+.menu-fade-in {
+    animation: fadeIn 0.3s linear both;
 }
 
-@keyframes fadeIn {
+@keyframes menu-close {
     0% {
         transform: translate(0px, 0px);
         animation-timing-function: ease-in-out
@@ -28,7 +28,7 @@
     }
 }
 
-@keyframes fadeOut {
+@keyframes menu-open {
     0% {
         transform: translate(-315px, 0px);
         animation-timing-function: ease-in-out

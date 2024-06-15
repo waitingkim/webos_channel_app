@@ -246,7 +246,7 @@ const SubTitle = {
 
 const SubContent = {
     Container: styled.div`
-        width: 1410px;
+        width: 1740px;
         height: 1080px;
     `,
     IndicatorLayout: styled.div`

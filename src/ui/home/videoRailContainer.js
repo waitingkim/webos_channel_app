@@ -6,7 +6,7 @@ import controller from "../tvguide/controller"
 
 const GuideContainerLayout = styled.div`
     width: 1920px;
-    height: 370px;
+    height: 403px;
     flex-grow: 0;
     overflow: hidden;
     background-color: transparent;
@@ -46,7 +46,7 @@ const RowDefault = styled.div`
     background-color: transparent;
     display: flex;
     margin-left: 40px;
-    //margin-left: -398px;
+    margin-left: -398px;
 `
 
 const CountLayout = styled.div`
@@ -91,20 +91,33 @@ const Bold = styled.span`
 
 `
 
-const RailContainer = ({item, isActive}) => {
+const RailContainer = ({item, railIndex, isActive, initIndex}) => {
     const [contentList, setContentList] = useState([]);
     const [index, setIndex] = useState(-1);
-    let curentIndex = 0;
+    let curentIndex = initIndex;
     useEffect(() => {
+        console.log('RailContainer item: ', item)
+
         controller.event.on('onKeydown', (data) => {
-            // if (data.content.groupId === item.groupId) {
-            //     console.log('!!EVENT EMITTER ', data)
-            //     keyDown(data.keyCode)
-            // }
+            // console.log('!!RailContainer railIndex ', railIndex)
+            // console.log('!!RailContainer data ', data)
+            if (railIndex === data.railIndex) {
+                // console.log('////////////key')
+                keyDown(data.keyCode)
+            }
+        })
+
+        controller.event.on('initIndex', (data) => {
+            curentIndex = 0;
         })
         setIndex(0)
         console.log(item)
     }, []);
+
+    useEffect(() => {
+        setIndex(0)
+    }, [item]);
+
 
     useEffect(() => {
         if (isActive) {
@@ -120,15 +133,15 @@ const RailContainer = ({item, isActive}) => {
                 (i >= index - 1 && i < index + 5)
             ).map((ch) => ch)
 
+            if (index === 0) {
+                showChannels.unshift({
+                    name: 'empty', date: '', poster: '', rank: ''
+                })
+            }
             setContentList(showChannels)
-            // console.log('INDEX: ', index)
-            // console.log('contentList: ', contentList)
-            // console.log('isActive: ', isActive)
-            // if (isActive) {
-            //     controller.event.emit('updateContent', {content: item.list[index]})
-            // }
+            controller.event.emit('updateContent', {content: item.list[index]})
         }
-    }, [index]);
+    }, [index, item]);
 
     const keyDown = (keyCode) => {
         const code = keyCode;
@@ -141,13 +154,15 @@ const RailContainer = ({item, isActive}) => {
         } else if (code === 37) {
             // LEFT
             if (curentIndex === 0) {
-                curentIndex = item.list.length - 1;
+                // curentIndex = item.list.length - 1;
+                controller.event.emit('isMenuOpen', {})
             } else {
                 curentIndex--;
             }
             setIndex(curentIndex)
         } else if (code === 39) {
             // RIGHT
+            console.log('RailContainer keyDown curentIndex : ', curentIndex)
             if (item.list.length - 1 > curentIndex) {
                 curentIndex++;
             } else {
@@ -163,7 +178,7 @@ const RailContainer = ({item, isActive}) => {
             <Title key={item.name}>
                 {
                     (isActive) ? <div style={{display: "flex"}}>
-                        <MonthlyTop10 style={{alignItems: "center", marginTop: "0px", opacity:"1.0"}} key={item.name}>
+                        <MonthlyTop10 style={{alignItems: "center", marginTop: "0px", opacity: "1.0"}} key={item.name}>
                             {item.name}
                         </MonthlyTop10>
                         <CountLayout>
@@ -171,7 +186,7 @@ const RailContainer = ({item, isActive}) => {
                             </CountText>
                         </CountLayout>
                     </div> : <div>
-                        <MonthlyTop10 key={item.name} style={{opacity:"0.5"}}>
+                        <MonthlyTop10 key={item.name} style={{opacity: "0.5"}}>
                             {item.name}
                         </MonthlyTop10>
                     </div>
@@ -182,7 +197,8 @@ const RailContainer = ({item, isActive}) => {
                 {
                     contentList.map((content, i) => {
                         return (
-                            <ContentContainerLayout key={i} type={item.type} content={content}
+                            (content.name === 'empty') ? <EmptyContainer/> :
+                            <ContentContainerLayout key={item.id} type={item.type} content={content}
                                                     isFocus={i === 1} isActive={isActive}/>
                         )
                     })

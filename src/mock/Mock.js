@@ -438,277 +438,277 @@ const categorys = [
 const videoList = {
     0: [
         {
-            name: 'Monthly Top 10', type: 'top10', list: [
-                {name: 'Kings Man', date: '3 month', poster: '/image/ad/lg_01.png', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_02.png', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '/image/ad/lg_03.png', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '/image/ad/lg_04.png', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '/image/ad/lg_05.png', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '/image/ad/lg_06.png', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '/image/ad/lg_01.png', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '/image/ad/lg_02.png', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_03.png', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_04.png', rank: 10}
+            name: 'R Monthly Top 10', type: 'top10', list: [
+                {name: 'R Kings Man', date: '3 month', poster: '/image/ad/lg_01.png', rank: 1},
+                {name: 'R The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_02.png', rank: 2},
+                {name: 'R Before We Go', date: '3 month', poster: '/image/ad/lg_03.png', rank: 3},
+                {name: 'R Big Fish', date: '3 month', poster: '/image/ad/lg_04.png', rank: 4},
+                {name: 'R Closer', date: '3 month', poster: '/image/ad/lg_05.png', rank: 5},
+                {name: 'R Man In Black', date: '3 month', poster: '/image/ad/lg_06.png', rank: 6},
+                {name: 'R Avatar', date: '3 month', poster: '/image/ad/lg_01.png', rank: 7},
+                {name: 'R Titanic', date: '3 month', poster: '/image/ad/lg_02.png', rank: 8},
+                {name: 'R Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_03.png', rank: 9},
+                {name: 'R Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_04.png', rank: 10}
             ]
         },
         {
-            name: 'Latest', type: 'video', list: [
-                {name: 'The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
-                {name: 'Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
-                {name: 'Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+            name: 'R Latest', type: 'video', list: [
+                {name: 'R The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
+                {name: 'R Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
+                {name: 'R Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
             ]
         },
         {
-            name: 'Movies', type: 'video', list: [
-                {name: 'Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
-                {name: 'Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
-                {name: 'Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
+            name: 'R Movies', type: 'video', list: [
+                {name: 'R Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
+                {name: 'R Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
+                {name: 'R Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
             ]
         },
         {
-            name: 'News', type: 'video', list: [
-                {name: 'Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
-                {name: 'Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
-                {name: 'Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+            name: 'R News', type: 'video', list: [
+                {name: 'R Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
+                {name: 'R Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
+                {name: 'R Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
             ]
         },
         {
-            name: 'Sports', type: 'video', list: [
-                {name: 'Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
-                {name: 'Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
-                {name: 'Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
-                {name: 'Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
-                {name: 'Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
-                {name: 'Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+            name: 'R Sports', type: 'video', list: [
+                {name: 'R Closer', date: '3 month', poster: '/image/ad/lg_06.png', rank: 0},
+                {name: 'R Man In Black', date: '3 month', poster: '/image/ad/lg_01.png', rank: 0},
+                {name: 'R Avatar', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R Titanic', date: '3 month', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Star Wars: The Force Awakens', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Marvels The Avengers', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
+                {name: 'R Kings Man', date: '3 month', poster: '/image/ad/lg_02.png', rank: 0},
+                {name: 'R The Maze Runnenr', date: '1 year', poster: '/image/ad/lg_03.png', rank: 0},
+                {name: 'R Before We Go', date: '3 month', poster: '/image/ad/lg_04.png', rank: 0},
+                {name: 'R Big Fish', date: '3 month', poster: '/image/ad/lg_05.png', rank: 0},
             ]
         }
     ],
     1: [
         {
-            name: 'Latest', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'M Latest', type: 'video', list: [
+                {name: 'M Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'M The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'M Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'M Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'M Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'M Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'M Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'M Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'M Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'M Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Movies', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'M Movies', type: 'video', list: [
+                {name: 'M Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'M The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'M Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'M Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'M Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'M Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'M Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'M Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'M Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'M Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'News', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'M News', type: 'video', list: [
+                {name: 'M Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'M The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'M Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'M Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'M Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'M Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'M Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'M Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'M Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'M Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Sports', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'M Sports', type: 'video', list: [
+                {name: 'M Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'M The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'M Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'M Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'M Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'M Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'M Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'M Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'M Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'M Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         }
     ],
     2: [
         {
-            name: 'Movies', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'S Movies', type: 'video', list: [
+                {name: 'S Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'S The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'S Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'S Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'S Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'S Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'S Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'S Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'S Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'S Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'News', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'S News', type: 'video', list: [
+                {name: 'S Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'S The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'S Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'S Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'S Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'S Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'S Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'S Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'S Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'S Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Sports', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'S Sports', type: 'video', list: [
+                {name: 'S Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'S The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'S Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'S Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'S Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'S Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'S Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'S Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'S Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'S Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         }
     ],
     3: [
         {
-            name: 'News', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'I News', type: 'video', list: [
+                {name: 'I Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'I The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'I Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'I Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'I Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'I Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'I Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'I Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'I Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'I Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Sports', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'I Sports', type: 'video', list: [
+                {name: 'I Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'I The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'I Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'I Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'I Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'I Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'I Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'I Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'I Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'I Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         }
     ],
     4: [
         {
-            name: 'Monthly Top 10', type: 'top10', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'A Monthly Top 10', type: 'top10', list: [
+                {name: 'A Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'A The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'A Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'A Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'A Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'A Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'A Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'A Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'A Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'A Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Latest', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'A Latest', type: 'video', list: [
+                {name: 'A Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'A The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'A Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'A Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'A Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'A Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'A Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'A Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'A Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'A Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Movies', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'A Movies', type: 'video', list: [
+                {name: 'A Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'A The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'A Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'A Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'A Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'A Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'A Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'A Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'A Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'A Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'News', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'A News', type: 'video', list: [
+                {name: 'A Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'A The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'A Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'A Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'A Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'A Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'A Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'A Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'A Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'A Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         },
         {
-            name: 'Sports', type: 'video', list: [
-                {name: 'Kings Man', date: '3 month', poster: '', rank: 1},
-                {name: 'The Maze Runnenr', date: '1 year', poster: '', rank: 2},
-                {name: 'Before We Go', date: '3 month', poster: '', rank: 3},
-                {name: 'Big Fish', date: '3 month', poster: '', rank: 4},
-                {name: 'Closer', date: '3 month', poster: '', rank: 5},
-                {name: 'Man In Black', date: '3 month', poster: '', rank: 6},
-                {name: 'Avatar', date: '3 month', poster: '', rank: 7},
-                {name: 'Titanic', date: '3 month', poster: '', rank: 8},
-                {name: 'Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
-                {name: 'Marvels The Avengers', date: '3 month', poster: '', rank: 10}
+            name: 'A Sports', type: 'video', list: [
+                {name: 'A Kings Man', date: '3 month', poster: '', rank: 1},
+                {name: 'A The Maze Runnenr', date: '1 year', poster: '', rank: 2},
+                {name: 'A Before We Go', date: '3 month', poster: '', rank: 3},
+                {name: 'A Big Fish', date: '3 month', poster: '', rank: 4},
+                {name: 'A Closer', date: '3 month', poster: '', rank: 5},
+                {name: 'A Man In Black', date: '3 month', poster: '', rank: 6},
+                {name: 'A Avatar', date: '3 month', poster: '', rank: 7},
+                {name: 'A Titanic', date: '3 month', poster: '', rank: 8},
+                {name: 'A Star Wars: The Force Awakens', date: '3 month', poster: '', rank: 9},
+                {name: 'A Marvels The Avengers', date: '3 month', poster: '', rank: 10}
             ]
         }
     ],
@@ -773,6 +773,8 @@ const videoList = {
 }
 
 function getVideoList(id) {
+    console.log('getVideoList : ', id)
+    console.log('videoList[id] : ', videoList[id])
     return videoList[id];
 }
 

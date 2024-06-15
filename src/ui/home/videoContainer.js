@@ -45,7 +45,7 @@ const ContentUnFocus = styled.div`
     margin: 25px auto auto;
     padding: 0;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: transparent;
 `
 
 const ImgLayout = styled.img`
@@ -138,7 +138,7 @@ const Rank = styled.span`
 `
 
 const VideoContainer = ({isFocus, type, content, isActive}) => {
-    console.log(content)
+    // console.log(content)
     return (
         <div>
             {
@@ -151,17 +151,17 @@ const VideoContainer = ({isFocus, type, content, isActive}) => {
                             {/*    <source src={"/ad_videos/vertical_02.mp4"} type="video/mp4"/>*/}
                             {/*</VideoLayout>*/}
                             {
-                                (groupId === 1000) ?
+                                (type === 'top10') ?
                                     <Rank style={{top: "30px", left: "40px"}}>
-                                        {rank}
+                                        {content.rank}
                                     </Rank> : <div/>
                             }
                         </ContentFocus>
                         <TitleLayout>
-                            <TitleFocus>{content.title}</TitleFocus>
+                            <TitleFocus>{content.name}</TitleFocus>
                         </TitleLayout>
                         <YearLayout>
-                            <YearFocus>{content.open}</YearFocus>
+                            <YearFocus>{content.date}</YearFocus>
                         </YearLayout>
                     </ContentContainerLayout> :
                     <ContentContainerUnLayout>
