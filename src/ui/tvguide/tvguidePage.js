@@ -237,7 +237,7 @@ const GuidePage = () => {
             }
             currentContent = list[currentIndex]
             setIndex(currentIndex)
-            setTop((currentIndex * 436) * -1)
+            setTop((currentIndex * 405) * -1)
         } else if (code === 38) {
             // UP
             if (currentIndex > 0) {
@@ -247,7 +247,7 @@ const GuidePage = () => {
             }
             currentContent = list[currentIndex]
             setIndex(currentIndex)
-            setTop((currentIndex * 436) * -1)
+            setTop((currentIndex * 405) * -1)
         } else if (code === 37) {
             // LEFT
             controller.event.emit('onKeydown', {index: currentIndex, content: currentContent, keyCode: code})
@@ -270,6 +270,7 @@ const GuidePage = () => {
             navigate(Controller.path + 'main', { replace: true, state: {channelNo:cotent.chno, channelIndex:index}})
 
         } else if (code === 27) {
+
             navigate(Controller.path + 'main', { replace: true, state: location.state})
         }
     };

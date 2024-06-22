@@ -121,7 +121,7 @@ const RailContainer = ({item, railIndex, isActive, initIndex}) => {
 
     useEffect(() => {
         if (isActive) {
-            controller.event.emit('updateContent', {content: item.list[index]})
+            controller.event.emit('updateVideoContent', {content: item.list[index]})
         }
     }, [isActive]);
 
@@ -139,7 +139,7 @@ const RailContainer = ({item, railIndex, isActive, initIndex}) => {
                 })
             }
             setContentList(showChannels)
-            controller.event.emit('updateContent', {content: item.list[index]})
+            controller.event.emit('updateVideoContent', {content: item.list[index]})
         }
     }, [index, item]);
 

@@ -88,14 +88,15 @@ function App() {
         <div className='App'>
             <Routes>
 
-                <Route path={Controller.path + '*'} element={<HomePage/>}></Route>
+                {/*<Route path={Controller.path + '*'} element={<HomePage/>}></Route>*/}
 
-                {/*<Route path={Controller.path + '*'} element={<AdPage adList={Mock.ad}></AdPage>}></Route>*/}
-                {/*<Route path={Controller.path + 'main/*'} element={<MainPage/>}></Route>*/}
-                {/*<Route path={Controller.path + 'home/*'} element={<HomePage/>}></Route>*/}
-                {/*<Route path={Controller.path + 'tvguide/*'} element={<GuidePage/>}></Route>*/}
+                <Route path={Controller.path + '*'} element={<AdPage adList={Mock.ad}></AdPage>}></Route>
+                <Route path={Controller.path + 'main/*'} element={<MainPage/>}></Route>
+                <Route path={Controller.path + 'home/*'} element={<HomePage/>}></Route>
+                <Route path={Controller.path + 'tvguide/*'} element={<GuidePage/>}></Route>
 
                 {/* 상단에 위치하는 라우트들의 규칙을 모두 확인, 일치하는 라우트가 없는경우 처리 */}
+
                 <Route path="*" element={<OtherPage/>}></Route>
             </Routes>
             <AppInfo>

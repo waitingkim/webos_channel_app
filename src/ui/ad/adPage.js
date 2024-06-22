@@ -51,7 +51,7 @@ const AdPage = ({adList}) => {
     }
 
     function move() {
-        navigate(Controller.path + 'main', { replace: false})
+        navigate(Controller.path + 'main', { replace: true})
     }
 
     return (

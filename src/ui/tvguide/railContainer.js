@@ -97,14 +97,21 @@ const RailContainer = ({item, isActive}) => {
     const [index, setIndex] = useState(-1);
     let curentIndex = 0;
     useEffect(() => {
-        controller.event.on('onKeydown', (data) => {
-            // console.log('!!EVENT EMITTER ', 'data.groupId:' + data.content.groupId + ' / item.groupId:' + item.groupId)
-            if (data.content.groupId === item.groupId) {
-                console.log('!!EVENT EMITTER ', data)
-                keyDown(data.keyCode)
-            }
-        })
+        const fun = (data) => {
+            // (data) => {
+                // console.log('!!EVENT EMITTER ', 'data.groupId:' + data.content.groupId + ' / item.groupId:' + item.groupId)
+                if (data.content.groupId === item.groupId) {
+                    console.log('!!EVENT EMITTER ', data)
+                    keyDown(data.keyCode)
+                }
+            // }
+        }
         setIndex(0)
+        controller.event.on('onKeydown', fun)
+        return () => {
+            controller.event.off('onKeydown', fun)
+        }
+
     }, []);
 
     useEffect(() => {

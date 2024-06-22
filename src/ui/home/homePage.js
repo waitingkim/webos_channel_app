@@ -195,14 +195,20 @@ const HomePage = () => {
         controller.event.on('isMenuOpen', (data) => {
             console.log('isMenuOpen', data)
             isMenuOpen = true;
-            wrapperRef.current.classList.remove('menu-close')
-            wrapperRef.current.classList.add('menu-open')
+            console.log('wrapperRef', wrapperRef)
+            if(wrapperRef.current != null) {
+                wrapperRef.current.classList.remove('menu-close')
+                wrapperRef.current.classList.add('menu-open')
+            }
 
-            closeMenuRef.current.classList.remove('menu-fade-in')
-            closeMenuRef.current.classList.add('menu-fade-out')
-
-            openMenuRef.current.classList.remove('menu-fade-out')
-            openMenuRef.current.classList.add('menu-fade-in')
+            if(closeMenuRef.current != null) {
+                closeMenuRef.current.classList.remove('menu-fade-in')
+                closeMenuRef.current.classList.add('menu-fade-out')
+            }
+            if(openMenuRef.current != null) {
+                openMenuRef.current.classList.remove('menu-fade-out')
+                openMenuRef.current.classList.add('menu-fade-in')
+            }
             setMenuState({open: isMenuOpen})
         })
 
@@ -252,8 +258,8 @@ const HomePage = () => {
         // setIndex(currentIndex);
         // console.log('========!!', list)
 
-        controller.event.on('updateContent', (data) => {
-            console.log('updateContent', data)
+        controller.event.on('updateVideoContent', (data) => {
+            console.log('updateVideoContent', data)
             // if (data.content !== undefined) {
             //     setHlsUrl(data.content.url)
             //     setContent(data.content)
