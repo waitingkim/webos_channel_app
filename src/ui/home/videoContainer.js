@@ -146,7 +146,7 @@ const VideoContainer = ({isFocus, type, content, isActive}) => {
                     <ContentContainerLayout>
                         <ContentFocus>
                             <ImgLayout
-                                src={content.poster}/>
+                                src={Controller.path + content.poster}/>
                             {/*<VideoLayout autoPlay muted>*/}
                             {/*    <source src={"/ad_videos/vertical_02.mp4"} type="video/mp4"/>*/}
                             {/*</VideoLayout>*/}
@@ -167,7 +167,7 @@ const VideoContainer = ({isFocus, type, content, isActive}) => {
                     <ContentContainerUnLayout>
                         <ContentUnFocus>
                             <img style={{width: "390px", height: "219px", borderRadius: "10px"}}
-                                 src={content.poster}/>
+                                 src={Controller.path + content.poster}/>
                             {
                                 (type === 'top10') ?
                                     <Rank>

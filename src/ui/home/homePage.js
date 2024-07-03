@@ -400,7 +400,7 @@ const HomePage = () => {
                             float: "right"
                         }}>
                             <div style={{paddingLeft: "3px", paddingRight: "16px"}}><img
-                                src={"./image/icon/icon-video.png"} style={{width: "80px", height: "80px"}}/></div>
+                                src={"/image/icon/icon-video.png"} style={{width: "80px", height: "80px"}}/></div>
                         </Title>
                     </div>
 
@@ -408,8 +408,8 @@ const HomePage = () => {
                         Mock.categoryList.map((item, i) => {
                             return (
                                 (i === index) ?
-                                    <TitleCloseBg><EllipseFocus><TitleCloseFocus>{item.name.at(0)}</TitleCloseFocus></EllipseFocus></TitleCloseBg> :
-                                    <TitleCloseBg><EllipseUnFocus><TitleCloseUnFocus>{item.name.at(0)}</TitleCloseUnFocus></EllipseUnFocus></TitleCloseBg>
+                                    <TitleCloseBg><EllipseFocus><TitleCloseFocus>{item.name.charAt(0)}</TitleCloseFocus></EllipseFocus></TitleCloseBg> :
+                                    <TitleCloseBg><EllipseUnFocus><TitleCloseUnFocus>{item.name.charAt(0)}</TitleCloseUnFocus></EllipseUnFocus></TitleCloseBg>
                             )
                         })
                     }
